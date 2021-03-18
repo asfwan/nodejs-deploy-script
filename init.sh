@@ -12,4 +12,7 @@ sudo apt-get install -y apache2
 sudo a2enmod proxy
 sudo a2enmod proxy_http
 
+wget https://raw.githubusercontent.com/asfwan/nodejs-deploy-script/main/apachevhost.conf
+sudo mv apachevhost.conf /etc/apache2/sites-enabled/
+
 sudo service apache2 restart
