@@ -6,3 +6,8 @@ source ~/.bashrc
 nvm install 14
 
 npm i -g yarn
+
+
+sudo apt-get install -y apache2
+sudo a2enmod proxy
+sudo a2enmod proxy_http
